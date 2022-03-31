@@ -2,7 +2,7 @@
 
 # Java
 - A better and more organized repo for my Java studies;
-- It used to be messier and less 'atractive';
+- It used to be messier and less 'attractive';
 - There's still a repo with my earlier studies on Java, but not easy to 'read'.
 
 ## This is like a notebook for my Java studies
