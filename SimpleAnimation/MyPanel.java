@@ -21,8 +21,8 @@ public class MyPanel extends JPanel implements ActionListener {
     MyPanel() {
         this.setPreferredSize(new Dimension(P_WIDTH, P_HEIGHT));
         this.setBackground(Color.black);
-        backGround = new ImageIcon("Earth.jpg").getImage();
-        foe1 = new ImageIcon("spaceship.png").getImage();
+        backGround = new ImageIcon("SimpleAnimation/Earth.jpg").getImage();
+        foe1 = new ImageIcon("SimpleAnimation/spaceship.png").getImage();
         timer = new Timer(1, this);
         timer.start();
     }

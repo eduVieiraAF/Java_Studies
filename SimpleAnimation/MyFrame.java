@@ -4,11 +4,10 @@ import javax.swing.*;
 
 public class MyFrame extends JFrame {
 
-    ImageIcon logo = new ImageIcon("fenix16x.png");
+    ImageIcon logo = new ImageIcon("SimpleAnimation/phoenix16x.png");
     MyPanel panel;
 
     MyFrame(){
-
         panel = new MyPanel();
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.setTitle("PHOENIX CODE -- Mars attack");
