@@ -3,7 +3,7 @@ public enum Size {
     //enum constants
     SMALL, MEDIUM, LARGE, XLARGE;
 
-    public String getSize(){
+    public String getSize() {
 
         return switch (this) {
             case SMALL -> "small";
@@ -13,7 +13,7 @@ public enum Size {
         };
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         System.out.println("Your coffee order is " + Size.SMALL.getSize());
         System.out.println("Your coffee order is " + Size.LARGE.getSize());
